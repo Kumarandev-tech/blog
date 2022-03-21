@@ -1,0 +1,133 @@
+html,
+body {
+    background-color: #01063f;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links>a {
+    color: #ffffff;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav {
+    justify-content: space-between;
+    display: flex;
+    margin: 30px;
+}
+
+.p-2 {
+    margin-top: 13px;
+}
+
+.p-2 a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.input-search .input-group {
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 52%;
+}
+
+.input-search .input-group button {
+    border-bottom-left-radius: 32px;
+    border-top-left-radius: 32px;
+    color: #9ba2b2;
+}
+
+#new-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.main-tittle {
+    text-align: center;
+    font-size: 2.625rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.main-tittle span {
+    color: #d73d44;
+}
+
+.sub-tittle {
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    font-weight: 200;
+    line-height: 2em;
+    font-family: "Proxima Nova";
+}
+
+#login {
+    margin-top: 20px;
+}
+
+li a {
+    padding: 30px;
+}
+
+.input-search .input-group {
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 50%;
+}
+
+.input-search .input-group button {
+    border-bottom-left-radius: 32px;
+    border-top-left-radius: 32px;
+    color: #9ba2b2;
+}
+
+.form-control {
+    box-shadow: none !important;
+}
+
+.m-hide {
+    color: black;
+}
+
+.dropdown-toggle {
+    width: 158px;
+    box-shadow: none !important;
+}
